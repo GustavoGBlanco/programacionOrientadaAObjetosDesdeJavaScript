@@ -1,6 +1,6 @@
 # Clases
 
-## ¿Que es una clase?
+## ¿Qué es una clase?
 <p style="text-align: justify;">Una clase es una plantilla o un modelo que define la estructura y el comportamiento de los objetos. En otras palabras, una clase es una estructura que encapsula datos (atributos) y funciones (métodos) que operan sobre esos datos. Los objetos son instancias concretas de una clase.</p>
 
 > Nota
@@ -22,10 +22,12 @@
 - **Instancias:** Objetos creados a partir de una clase.
 
 ### Sintaxis Básica:
-![img.png](images/sintaxisBasica.png)
+
+![sintaxisBasica.png](images/sintaxisBasica.png)
 
 ### Ejemplo Básico:
-![img.png](images/ejemploBasico.png)
+
+![ejemploBasico.png](images/ejemploBasico.png)
 
 ## Características de una clase
 
@@ -55,7 +57,7 @@
 ### Métodos de Acceso (Getters y Setters)
 - <p style="text-align: justify;"><b>Descripción:</b> Los getters y setters permiten controlar cómo se accede y se modifica el valor de los atributos privados. En JavaScript, se definen con las palabras clave <code>get</code> y <code>set</code>.</p>
 
-![img.png](images/ejemploBasicoGettersYSetters.png)
+![ejemploBasicoGettersYSetters.png](images/ejemploBasicoGettersYsetters.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Persona</code>, podemos identificar:</p>
 
@@ -63,7 +65,7 @@
 - <p style="text-align: justify;"><code>#edad:</code> Es un atributo privado de la clase, indicado por el prefijo <code>#</code>. Solo se puede acceder a él desde dentro de la clase.</p>
 
 #### Constructor
-- <p style="text-align: justify;">constructor(edad):</code> Es un método especial que inicializa una nueva instancia de la clase. En este caso, toma un parámetro <code>edad</code> y asigna este valor al atributo privado <code>#edad</code>.</p>
+- <p style="text-align: justify;"><code>constructor(edad):</code> Es un método especial que inicializa una nueva instancia de la clase. En este caso, toma un parámetro <code>edad</code> y asigna este valor al atributo privado <code>#edad</code>.</p>
 
 #### Métodos
 - <p style="text-align: justify;"><code>get edad():</code> Es un <code>getter</code> para el atributo <code>#edad</code>. Permite acceder al valor del atributo privado desde fuera de la clase.</p>
@@ -73,7 +75,7 @@
 
 #### Animal
 
-![img.png](images/animal.png)
+![animal.png](images/animal.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Animal</code>, podemos identificar:</p>
 
@@ -81,12 +83,12 @@
 - <p style="text-align: justify;"><code>nombre:</code> Es un atributo público de la clase que almacena el nombre del animal. Se establece en el constructor y puede ser accedido y modificado directamente.</p>
 
 #### Constructor
-- <p style="text-align: justify;"><code>constructor(nombre):</code></code> Es un método especial que inicializa una nueva instancia de la clase. Toma un parámetro <code>nombre</code> y asigna este valor al atributo <code>nombre</code> de la instancia.</p>
+- <p style="text-align: justify;"><code>constructor(nombre):</code> Es un método especial que inicializa una nueva instancia de la clase. Toma un parámetro <code>nombre</code> y asigna este valor al atributo <code>nombre</code> de la instancia.</p>
 
 #### Métodos
 - <p style="text-align: justify;"><code>hacerSonido()</code> Es un método de la clase que imprime un mensaje en la consola, indicando que el animal hace un sonido. Utiliza el atributo <code>nombre</code> para personalizar el mensaje.</p>
 
-![img.png](images/libro.png)
+![libro.png](images/libro.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Libro</code>, podemos identificar:</p>
 
@@ -102,7 +104,7 @@
 
 #### Computador
 
-![img.png](images/computador.png)
+![computador.png](images/computador.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Computador</code>, podemos identificar:</p>
 
@@ -110,7 +112,7 @@
 - <p style="text-align: justify;"><code>#marca:</code> <i>(utiliza un <code>#</code> antes del nombre para indicar que es privado)</i>.</p>
 
 #### Atributos Públicos
-- <p style="text-align: justify;"><code>modelo:</code> Almacena el modelo del computador..</p>
+- <p style="text-align: justify;"><code>modelo:</code> Almacena el modelo del computador.</p>
 - <p style="text-align: justify;"><code>memoria:</code> Almacena la cantidad de memoria del computador en GB.</p>
 
 #### Constructor
@@ -128,7 +130,7 @@
 
 ![img.png](images/computadorGettersYsetters.png)
 
-<p style="text-align: justify;">Y luego podrías usar estos métodos para acceder y modificar el atributo privado <code>#marca</code> de forma segura. Ademas puedes crear de esta misma manera los <code>getters</code> y </code>setters</code> faltantes para los atributos <code>modelo</code> y <code>memoria</code>.</p>
+<p style="text-align: justify;">Y luego podrías usar estos métodos para acceder y modificar el atributo privado <code>#marca</code> de forma segura. Adémas puedes crear de esta misma manera los <code>getters</code> y <code>setters</code> faltantes para los atributos <code>modelo</code> y <code>memoria</code>.</p>
 
 > Recordatorio
 > 
@@ -173,7 +175,7 @@
 
 #### Universidad
 
-![img.png](images/universidad.png)
+![universidad.png](images/universidad.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Universidad</code>, podemos identificar:</p>
 
@@ -190,7 +192,7 @@
 
 #### Métodos
 - <p style="text-align: justify;"><code>mostrarDetalles():</code> Este método imprime en la consola el <code>nombre</code> de la universidad, su <code>ubicación</code> y las <code>facultades</code> que tiene. Utiliza los atributos privados y públicos para mostrar la información.</p>
-- <code style="text-align: justify;"><code>mostrarComputadoras():</code> Este método itera sobre la lista de objetos <code>Computador</code> almacenados en computadoras y llama al método </code>mostrarInfo()</code> de cada objeto Computador. Se asume que la clase Computador tiene un método <code>mostrarInfo()</code> que imprime información sobre cada computadora.</p>
+- <p style="text-align: justify;"><code>mostrarComputadoras():</code> Este método itera sobre la lista de objetos <code>Computador</code> almacenados en computadoras y llama al método <code>mostrarInfo()</code> de cada objeto Computador. Se asume que la clase Computador tiene un método <code>mostrarInfo()</code> que imprime información sobre cada computadora.</p>
 
 #### Getters
 -  <p style="text-align: justify;"><code>get nombre():</code> Devuelve el valor del atributo privado <code>#nombre</code>.</p>
@@ -203,7 +205,7 @@
 ### Notas Adicionales
 <p style="text-align: justify;">Para que el código funcione correctamente, la clase <code>Computador</code> debe estar definida y debe incluir un método <code>mostrarInfo()</code> que imprima información sobre cada computadora. Aquí hay un ejemplo simple de cómo podría ser la clase Computador:</p>.
 
-![img.png](images/computadorSegundoEjemplo.png)
+![computadorSegundoEjemplo.png](images/computadorSegundoEjemplo.png)
 
 #### Coche
 
@@ -222,7 +224,7 @@
 
 #### Persona
 
-![img.png](images/persona.png)
+![persona.png](images/persona.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Persona</code>, podemos identificar:</p>
 
@@ -244,10 +246,10 @@
 - Atributos públicos <code>pais</code> y <code>superficie</code>. 
 - Agregar un método llamado <code>mostrarDetalles</code> que imprima la información de la clase. 
 - Implementar <code>getters</code> y <code>setters</code> de todos los atributos de las clases.
-- Los <code>setters</code> en su implementación deben validar que el valor recibido por parametro:
+- Los <code>setters</code> en su implementación deben validar que el valor recibido por parámetro:
   - Sea mayor a 0 si su atributo es un valor número <i>(se sobrentiende que los atributos <code>poblacion</code> y <code>superficie</code> son valores numéricos)</i>.
-  - Sea una cadena de texto de mas de 3 caracteres si su atributo es una cadena de texto <i>(se sobrentiende que los atributos <code>pais</code> y <code>nombre</code> son cadenas de texto)</i>.
-  - En caso que no cumplan esta condicion deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parametro genera un error'</i>.</p>
+  - Sea una cadena de texto de más de 3 caracteres si su atributo es una cadena de texto <i>(se sobrentiende que los atributos <code>pais</code> y <code>nombre</code> son cadenas de texto)</i>.
+  - En caso, que no cumplan esta condición deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parámetro genera un error'</i>.</p>
 
 ### Ejercicio 2 - Clase tablet
 
@@ -256,9 +258,9 @@
 - Atributos públicos <code>marca</code> y <code>modelo</code>.
 - Agregar un método llamado <code>mostrarDetalles</code> que imprima la información de la clase. 
 - Implementar <code>getters</code> y <code>setters</code> de todos los atributos de las clases.
-- Los <code>setters</code> en su implementación deben validar que el valor recibido por parametro <i>(se sobrentiende que todos los atributos son cadenas de texto)</i>:
-  - Sea una cadena de texto de mas de 3 caracteres.
-  - En caso que no cumplan esta condicion deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parametro debe tener al menos 3 caracteres'</i>.</p>
+- Los <code>setters</code> en su implementación deben validar que el valor recibido por parámetro <i>(se sobrentiende que todos los atributos son cadenas de texto)</i>:
+  - Sea una cadena de texto de más de 3 caracteres.
+  - En caso, que no cumplan esta condición deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parámetro debe tener al menos 3 caracteres'</i>.</p>
 
 ### Ejercicio 3 - Clase Reloj
 
@@ -266,14 +268,14 @@
 - Atributos privados: <code>marca</code>, <code>tipoCorrea</code>, <code>color</code> y <code>materialCaja</code>. 
 - Agregar un método llamado <code>mostrarDetalles</code> que imprima la información de la clase.
 - Agregar un método llamado <code>mostrarCategoriaCliente</code>, que use un <code>switch</code> en la implementación para imprimir:
-  - 'Cliente de lujo' si la cadena de texto recibido por parametro es 'oro'.
-  - 'Cliente VIP' si la cadena de texto recibida por parametro es 'ceramica'.
-  - 'Cliente normal' si la cadena de texto recibida por parametro es 'acero inoxidable'.
-  - El siguiente mensaje de error <i>'El tipo de caja no existe, solo existen "acero inoxidable", "oro" o "ceramica"'</i> si el valor recibido por parametro es otro.
+  - 'Cliente de lujo' si la cadena de texto recibido por parámetro es 'oro'.
+  - 'Cliente VIP' si la cadena de texto recibida por parámetro es 'ceramica'.
+  - 'Cliente normal' si la cadena de texto recibida por parámetro es 'acero inoxidable'.
+  - El siguiente mensaje de error <i>'El tipo de caja no existe, solo existen "acero inoxidable", "oro" o "ceramica"'</i> si el valor recibido por parámetro es otro.
 - Implementar <code>getters</code> y <code>setters</code> de todos los atributos de las clases.
-- - Los <code>setters</code> en su implementación deben validar que el valor recibido por parametro <i>(se sobrentiende que todos los atributos son cadenas de texto)</i>:
-  - Sea una cadena de texto de mas de 3 caracteres.
-  - En caso que no cumplan esta condicion deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parametro debe tener al menos 3 caracteres'</i>. 
+- - Los <code>setters</code> en su implementación deben validar que el valor recibido por parámetro <i>(se sobrentiende que todos los atributos son cadenas de texto)</i>:
+  - Sea una cadena de texto de más de 3 caracteres.
+  - En caso, que no cumplan esta condición deben imprimir en consola el siguiente mensaje de error: <i>'El valor recibido por parámetro debe tener al menos 3 caracteres'</i>. 
   - El <code>setter</code> de <code>materialCaja</code> debe implementar un <code>switch</code> como se hizo para el método <code>mostrarCategoriaCliente</code>.</p>
 
 #### Ejercicios resueltos
