@@ -57,7 +57,7 @@
 ### Métodos de Acceso (Getters y Setters)
 - <p style="text-align: justify;"><b>Descripción:</b> Los getters y setters permiten controlar cómo se accede y se modifica el valor de los atributos privados. En JavaScript, se definen con las palabras clave <code>get</code> y <code>set</code>.</p>
 
-![ejemploBasicoGettersYSetters.png](images/ejemploBasicoGettersYsetters.png)
+![ejemploBasicoGettersYSetters.png](images/ejemploBasicoGettersYSetters.png)
 
 <p style="text-align: justify;">En la anterior clase <code>Persona</code>, podemos identificar:</p>
 
