@@ -35,7 +35,7 @@
 ### Modularidad
 
 - <p style="text-align: justify;"><b>Descripción:</b> Facilita la división del sistema en módulos o componentes independientes. Cada objeto es responsable de su propio estado y comportamiento, lo que simplifica la comprensión y el mantenimiento del código.</p>
-- <p style="text-align: justify;"><b>Ejemplo:</b> Una clase <code>Coche</code>code> encapsula sus atributos como <code>marca</code>, <code>modelo</code> y sus métodos para operar sobre estos atributos.</p>
+- <p style="text-align: justify;"><b>Ejemplo:</b> Una clase <code>Coche</code> encapsula sus atributos como <code>marca</code>, <code>modelo</code> y sus métodos para operar sobre estos atributos.</p>
 
 ### Mantenibilidad
 
