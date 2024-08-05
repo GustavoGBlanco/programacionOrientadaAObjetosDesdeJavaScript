@@ -100,7 +100,7 @@ const libro12 = new Libro('C# in Depth', 'Jon Skeet');
 ### Crear una nueva clase y nuevos objetos
 
 - <p style="text-align: justify;"> De la siguiente tabla cree una clase llamada <code>Equipo</code> con sus respectivos atributos privados, <code>getters</code>, <code>setters</code>.</p>
-- <p style="text-align: justify;"> Un método llamado <code>mostrarDetalles</code> el cual imprima en consola toda la información de la clase.</p>
+- <p style="text-align: justify;"> Crear un método llamado <code>mostrarDetalles</code> el cual imprima en consola toda la información de la clase.</p>
 - <p style="text-align: justify;"> Crear todos los objetos.</p>
 - <p style="text-align: justify;"> Invocar el método <code>mostrarDetalles()</code> de cada objeto.</p>
 
@@ -223,3 +223,48 @@ Nombre: Deportes Tolima, Ciudad: Ibagué, Estadio: Estadio Manuel Murillo Toro, 
 Nombre: Envigado FC, Ciudad: Envigado, Estadio: Estadio Polideportivo Sur, Director Técnico: Eduardo Lara, Sitio Web: https://www.envigadofc.com.co
 Nombre: Jaguares de Córdoba, Ciudad: Montería, Estadio: Estadio Jaraguay, Director Técnico: Diego Martínez, Sitio Web: https://jaguaresfc.co
 ```
+## Ejercicios
+
+### Ejercicio 1
+
+- <p style="text-align: justify;"> De la siguiente tabla cree una clase llamada <code>Apple</code> con sus respectivos atributos privados, <code>getters</code>, <code>setters</code>.</p>
+- <p style="text-align: justify;"> Crear un método llamado <code>mostrarDetalles</code> el cual imprima en consola toda la información de la clase.</p>
+- <p style="text-align: justify;"> Crear todos los objetos.</p>
+- <p style="text-align: justify;"> Invocar el método <code>mostrarDetalles()</code> de cada objeto.</p>
+
+| **Dispositivo**        | **Modelo**             | **Precio** | **Cantidades Vendidas** | **País con Más Venta** | **Versión del Sistema Operativo** |
+|------------------------|------------------------|------------|--------------------------|------------------------|----------------------------------|
+| iPhone                 | iPhone 15 Pro          | $999       | 1,000,000                | Estados Unidos         | iOS 17                            |
+| iPhone                 | iPhone 15              | $799       | 900,000                  | China                  | iOS 17                            |
+| iPad                   | iPad Pro (11-inch)     | $799       | 700,000                  | Estados Unidos         | iPadOS 17                         |
+| iPhone                 | iPhone 14              | $699       | 650,000                  | India                  | iOS 16                            |
+| MacBook                | MacBook Air (M2)       | $1,199     | 600,000                  | Estados Unidos         | macOS Ventura                     |
+| iPad                   | iPad (10th Gen)        | $449       | 550,000                  | China                  | iPadOS 16                         |
+| iPhone                 | iPhone 14 Pro          | $999       | 500,000                  | Brasil                 | iOS 16                            |
+| iPad                   | iPad Mini              | $499       | 450,000                  | Japón                  | iPadOS 16                         |
+| MacBook                | MacBook Pro (M2)       | $1,299     | 400,000                  | Corea del Sur           | macOS Ventura                     |
+| Apple Watch            | Apple Watch Ultra      | $799       | 350,000                  | Estados Unidos         | watchOS 10                        |
+
+### Ejercicio 2
+
+- <p style="text-align: justify;"> De la siguiente tabla cree una clase llamada <code>Samsung</code> con sus respectivos atributos públicos, <code>getters</code>, <code>setters</code>.</p>
+- <p style="text-align: justify;"> Crear un método llamado <code>mostrarDetalles</code> el cual imprima en consola toda la información de la clase.</p>
+- <p style="text-align: justify;"> Crear todos los objetos.</p>
+- <p style="text-align: justify;"> Invocar el método <code>mostrarDetalles()</code> de cada objeto.</p>
+
+| **Dispositivo**        | **Modelo**             | **Precio** | **Cantidades Vendidas** | **País con Más Venta** | **Versión del Sistema Operativo** |
+|------------------------|------------------------|------------|--------------------------|------------------------|----------------------------------|
+| Galaxy S23 Ultra       | Galaxy S23 Ultra       | $1,199     | 1,200,000                | Estados Unidos         | Android 13                       |
+| Galaxy S23             | Galaxy S23             | $999       | 1,100,000                | Corea del Sur          | Android 13                       |
+| Galaxy A54             | Galaxy A54             | $449       | 900,000                  | India                  | Android 13                       |
+| Galaxy Z Fold 5        | Galaxy Z Fold 5        | $1,799     | 850,000                  | China                  | Android 13                       |
+| Galaxy A34             | Galaxy A34             | $349       | 800,000                  | Brasil                 | Android 13                       |
+| Galaxy S23+            | Galaxy S23+            | $1,099     | 750,000                  | Estados Unidos         | Android 13                       |
+| Galaxy Z Flip 5        | Galaxy Z Flip 5        | $999       | 700,000                  | Corea del Sur          | Android 13                       |
+| Galaxy A14             | Galaxy A14             | $299       | 650,000                  | India                  | Android 13                       |
+| Galaxy Tab S9          | Galaxy Tab S9          | $799       | 600,000                  | Estados Unidos         | Android 13                       |
+| Galaxy Note 20 Ultra   | Galaxy Note 20 Ultra   | $1,199     | 550,000                  | Japón                  | Android 12                       |
+
+#### Ejercicios resueltos
+
+- <p style="text-align: justify;">Una vez resuelva los ejercicios puede compararlos con mi propuesta de cada uno de ellos, los encontrará dentro del directorio <code>soluciones</code></p>.
